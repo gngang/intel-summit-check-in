@@ -419,3 +419,17 @@ select {
   font-size: 15px;
   color: #475569;
 }
+#resetBtn {
+  margin-top: 1rem;
+  background: #dc3545; /* red */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#resetBtn:hover {
+  background: #b02a37;
+}
