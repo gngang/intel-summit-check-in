@@ -376,3 +376,46 @@ select {
     grid-template-columns: 1fr;
   }
 }
+/* Celebration */
+.celebration {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0071c5;
+  display: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #e6f7ff;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+/* Attendee list */
+.attendee-list {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.attendee-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.attendee-list li {
+  background: #f8fafc;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #475569;
+}
