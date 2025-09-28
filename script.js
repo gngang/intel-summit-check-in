@@ -125,3 +125,10 @@ function saveState() {
   localStorage.setItem("teamCounts", JSON.stringify(teamCounts));
   localStorage.setItem("attendees", JSON.stringify(attendees));
 }
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (confirm("Are you sure you want to reset everything?")) {
+    localStorage.clear();
+    location.reload();
+  }
+});
+
